@@ -1,11 +1,11 @@
-import './App.css';
+import React from 'react'
+import NoteContainer from './Components/NoteContainer/NoteContainer';
+import "./App.css"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Here is a React App</h1>
-      </header>
+      <NoteContainer />
     </div>
   );
 }
